@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ToDoList</title>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/9e472e6a42.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>ToDoList</h1>
+			<div class="context">
+				<input type="text" id="task" placeholder="Enter the task" />
+
+				<input id="adding" type="button" value="Add" onclick="createData()" />
+
+				<input type="button" value="Clear" onclick="deleteAll()" />
+			</div>
+			<ul class="text" id="text"> </ul>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
