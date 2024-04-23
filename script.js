@@ -53,6 +53,7 @@ function showData() {
 		document.getElementById('text').innerHTML = html;
 	}
 }
+// javascript:void(0) to prevent from reloading of the website
 
 function deleteTask(rid) {
 	let arr = JSON.parse(localStorage.getItem('items'));
